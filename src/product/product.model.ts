@@ -12,6 +12,7 @@ class ProductCharacteristic {
 export interface ProductModel extends Base {}
 
 export class ProductModel extends TimeStamps {
+
     @Prop()
     image: string
 
@@ -26,9 +27,6 @@ export class ProductModel extends TimeStamps {
 
     @Prop()
     credit: number
-
-    @Prop()
-    calculatedRating: number
 
     @Prop()
     description: string
